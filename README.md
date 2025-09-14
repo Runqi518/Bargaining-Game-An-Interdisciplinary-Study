@@ -1,4 +1,5 @@
-# COMSCI-ECON-206 ProblemSet1
+# Bargaining-Game-An-Interdisciplinary-Study
+ 
 
 ## Abstract
 This project explores the interdisciplinary study of economic theory, computational analysis, and behavioral science applied to the assigned problem set. The goal is to combine theoretical modeling, simulation, and experimental insights to better understand decision-making processes. This repository supports Problem Set 1 for COMSCI/ECON 206: Computational Microeconomics. <br>
@@ -24,7 +25,7 @@ Part3 Behavioral Scientist: oTree experiment with human participants and an LLM 
 
 To reproduce the results in this repository:
 
-1. **Clone the repository**  
+1. Clone the repository 
    ```bash
    git clone https://github.com/Runqi518/Bargaining-Game-An-Interdisciplinary-Study.git
    cd Bargaining-Game-An-Interdisciplinary-Study
@@ -45,6 +46,15 @@ To reproduce the results in this repository:
 • Screenshots of human session results are in behavioral_scientist/screenshots/. <br>
 • LLM transcripts, prompts, and JSON settings are stored in behavioral_scientist/llm/. <br>
 • See behavioral_scientist/README.md for deployment instructions, ethics notes, and session configs. <br>
+
+## Software Citations
+
+Osborne, M. J., & Rubinstein, A. (1994). A Course in Game Theory. MIT Press.  <br>
+Shoham, Y., & Leyton-Brown, K. (2008). Multiagent Systems. Cambridge University Press.  <br>
+Knight, V. (2021). NashPy: A Python library for the computation of equilibria of 2-player strategic games, Version 0.0.28.  <br>
+Savani, R., & von Stengel, B. (2015). Game Theory Explorer – Software for the Applied Game Theorist. Computational Management Science, 12, 5–33.  <br>
+Sargent, T. J., & Stachurski, J. (2021). Quantitative Economics (Python), Version 0.5.1.  <br>
+
 
 ## License
 This repository is for educational purposes within COMSCI/ECON 206: Computational Microeconomics (Autumn 2025). <br>
