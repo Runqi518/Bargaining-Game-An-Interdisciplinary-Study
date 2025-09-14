@@ -46,6 +46,10 @@ To reproduce the results in this repository:
 • LLM transcripts, prompts, and JSON settings are stored in behavioral_scientist/llm/. <br>
 • See behavioral_scientist/README.md for deployment instructions, ethics notes, and session configs. <br>
 
+## License
+This repository is for educational purposes within COMSCI/ECON 206: Computational Microeconomics (Autumn 2025). <br>
+Please cite all tools, textbooks, and research papers appropriately.
+
 
 ## Repository Structure
 
@@ -66,30 +70,5 @@ Bargaining-Game-An-Interdisciplinary-Study/
 │   └── llm/                   # prompts.txt, transcript.md, settings.json
 └── refs/                      # Central bibliography (if consolidated)
 
-```text
 
 
-## License
-This repository is for educational purposes within COMSCI/ECON 206: Computational Microeconomics (Autumn 2025). <br>
-Please cite all tools, textbooks, and research papers appropriately.
-
-## References
-Chen, Daniel L., Martin Schonger, and Chris Wickens. 2016. “oTree—An
-Open-Source Platform for Laboratory, Online, and Field Experiments.”
-Journal of Behavioral and Experimental Finance 9: 88–97. https://doi.org/10.1016/j.jbef.2015.12.001
-
-Fudenberg, Drew, and Jean Tirole. 1991. Game Theory. Cambridge, MA: MIT
-Press.
-
-Vincent Knight (2021). Nashpy: A Python library for the computation of
-equilibria of 2-player strategic games, Version 0.0.28
-
-Thomas J. Sargent and John Stachurski (2021). Quantitative Economics
-(Python), Version 0.5.1
-
-Rahul Savani and Bernhard von Stengel (2015). Game Theory Explorer – Software for the Applied Game Theorist. Computational Management Science
-12, 5–33.
-
-Shoham, Yoav, and Kevin Leyton-Brown. 2009. Multiagent Systems:
-Algorithmic, Game-Theoretic, and Logical Foundations. Cambridge:
-Cambridge University Press.
