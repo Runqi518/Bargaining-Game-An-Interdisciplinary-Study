@@ -31,20 +31,20 @@ To reproduce the results in this repository:
 
 2. Economist (theory & welfare)
 
-• Read economist/README.md for definitions, textbook citations, and references.
+• Read economist/README.md for definitions, textbook citations, and references. <br>
 • Contains theoretical writeups and references to Nash (1950), Harsanyi (1967), and Fehr–Schmidt (1999).  
 
 3. Computational Scientist (coding & tools)
 
-• Open computational_scientist/notebook.ipynb in Google Colab or Jupyter.
+• Open computational_scientist/notebook.ipynb in Google Colab or Jupyter. <br>
 • Explore GTE screenshots under computational_scientist/screenshots/.  
 
 4. Behavioral Scientist (experiment & AI)
 
-• Run the oTree app in behavioral_scientist/bargaining_game.otreezip.
-• Screenshots of human session results are in behavioral_scientist/screenshots/.
-• LLM transcripts, prompts, and JSON settings are stored in behavioral_scientist/llm/.
-• See behavioral_scientist/README.md for deployment instructions, ethics notes, and session configs.
+• Run the oTree app in behavioral_scientist/bargaining_game.otreezip. <br>
+• Screenshots of human session results are in behavioral_scientist/screenshots/. <br>
+• LLM transcripts, prompts, and JSON settings are stored in behavioral_scientist/llm/. <br>
+• See behavioral_scientist/README.md for deployment instructions, ethics notes, and session configs. <br>
 
 
 ## Repository Structure
