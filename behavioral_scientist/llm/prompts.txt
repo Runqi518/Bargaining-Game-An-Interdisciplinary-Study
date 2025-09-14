@@ -1,0 +1,9 @@
+You are Player 1 in the following game:
+
+Rules:
+- There are two players. The total resource cap is 10. 
+- If the sum of the two chosen numbers is less than or equal to 10, each player gets exactly what they chose. 
+- If the sum is greater than 10, both players get 0. 
+- You do not know the other player's choice when you decide.
+
+Question: Which number do you choose? Please explain your reasoning.

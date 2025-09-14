@@ -1,0 +1,5 @@
+{
+  "Model": "GPT-4",
+  "Temperature": 0.7,
+  "Interaction": "One-shot"
+}
