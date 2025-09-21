@@ -1,4 +1,4 @@
-# Economist Component
+# Economist
 
 ## Summary
 This folder contains the theoretical component of the project, including:

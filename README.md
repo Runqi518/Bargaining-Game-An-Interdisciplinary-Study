@@ -2,52 +2,46 @@
  
 
 ## Abstract
-This project explores the interdisciplinary study of economic theory, computational analysis, and behavioral science applied to the assigned problem set. The goal is to combine theoretical modeling, simulation, and experimental insights to better understand decision-making processes. This repository supports Problem Set 1 for COMSCI/ECON 206: Computational Microeconomics. <br>
+This project investigates the simultaneous-demand bargaining game under incomplete information, combining theoretical, computational, and experimental approaches. We implement Bayesian Nash equilibria computations in Google Colab, illustrate extensive-form sequential adaptations in Game Theory Explorer (GTE), conduct human experiments and LLM simulations via oTree, and analyze strategic behavior across multiple conditions. The goal is to compare theoretical predictions, human behavior, and AI agent responses, providing insights into fairness, risk, and strategic reasoning. This repository supports Problem Set 1 & 2 for COMSCI/ECON 206: Computational Microeconomics. <br>
 
-It deploys a 2-player resource allocation game with the following rules: <br>
-• Two players simultaneously choose a nonnegative integer. <br>
-• If the sum of their choices ≤ 10, 100 or 1000, each receives exactly what they chose. <br>
-• If the sum > 10, 100 or 1000, both receive 0. <br>
-
-This setup generates a tension between individual maximization and joint feasibility, illustrating themes of fairness, coordination, and equilibrium prediction. <br>
 
 ## Task Summary
-The repository integrates three disciplinary perspectives:
+The project is organized into five main components:
+1. **Problem Set Materials**
+   - [ProblemSet.pdf](ProblemSet.pdf) — Includes Problem Set 1 updates, acknowledgments, responses, and Problem Set 2 work.
+   
+2. **Economist Component**
+   - [economist/](economist/) — Analytical treatment of auction formats and economic modeling.
 
-Part1 Economist: Theoretical analysis of Nash and Bayes–Nash equilibria, welfare benchmarks, and refinements. <br>
+3. **Computational Scientist Component**
+   - [computational_scientist/](computational_scientist/) — Coding and simulation:
+     - [Colab Notebook](computational_scientist/Colab/) — Implements the normal-form simultaneous-demand bargaining game and computes Bayesian Nash equilibria.
+     - [GTE Folder](computational_scientist/GTE/) — Extensive-form sequential adaptation for illustrative SPNE analysis.
 
-Part2 Computational Scientist: Reproduction of equilibria using Google Colab (NashPy, QuantEcon) and Game Theory Explorer (GTE). <br>
+4. **Behavioral Scientist Component**
+   - [behavioral_scientist/](behavioral_scientist/) — Human experiments and LLM agent comparison:
+     - [oTree Project](behavioral_scientist/otree_app/) — Interactive bargaining game for human participants.
+     - [LLM Session Data](behavioral_scientist/llm/) — Prompts, transcripts, and model settings for GPT-4 simulation.
+     - [Screenshots](behavioral_scientist/screenshots/) — Illustrations of session outcomes and game setup.
 
-Part3 Behavioral Scientist: oTree experiment with human participants and an LLM “ChatBot” agent, with comparison to theory. <br>
+5. **Mechanism Design Component**
+   - [mechanism_design/](mechanism_design/) — Auction mechanism implementation, testing, and analysis.
 
 
 ## Reproduction Steps
 
-To reproduce the results in this repository:
+1. Review [ProblemSet.pdf](ProblemSet.pdf) for acknowledgments, responses, and updates.
+2. Explore each component in the following order: economist → computational_scientist → behavioral_scientist → mechanism_design.
+3. For computational experiments:
+   - Open the [Colab Notebook](computational_scientist/Colab/ProblemSet1_2a.ipynb) and run all cells.
+   - Optionally explore different parameters to observe variations in Bayesian Nash equilibria.
+4. For behavioral experiments:
+   - Navigate to the [oTree Project](behavioral_scientist/otree_app/) and follow instructions to run sessions locally.
+   - Review [LLM Session Data](behavioral_scientist/llm/) for AI agent responses.
+5. For mechanism design:
+   - Explore auction formats and simulation outputs in [mechanism_design/](mechanism_design/).
 
-1. Clone the repository 
-   ```bash
-   git clone https://github.com/Runqi518/Bargaining-Game-An-Interdisciplinary-Study.git
-   cd Bargaining-Game-An-Interdisciplinary-Study
-
-2. Economist (theory & welfare)
-
-• Read economist/README.md for definitions, textbook citations, and references. <br>
-• Contains theoretical writeups and references to Nash (1950), Harsanyi (1967), and Fehr–Schmidt (1999).  
-
-3. Computational Scientist (coding & tools)
-
-• Open computational_scientist/notebook.ipynb in Google Colab or Jupyter. <br>
-• Explore GTE screenshots under computational_scientist/screenshots/.  
-
-4. Behavioral Scientist (experiment & AI)
-
-• Run the oTree app in behavioral_scientist/bargaining_game.otreezip. <br>
-• Screenshots of human session results are in behavioral_scientist/screenshots/. <br>
-• LLM transcripts, prompts, and JSON settings are stored in behavioral_scientist/llm/. <br>
-• See behavioral_scientist/README.md for deployment instructions, ethics notes, and session configs. <br>
-
-## Software Citations
+## References
 
 Osborne, M. J., & Rubinstein, A. (1994). A Course in Game Theory. MIT Press.  <br>
 Shoham, Y., & Leyton-Brown, K. (2008). Multiagent Systems. Cambridge University Press.  <br>
@@ -66,19 +60,25 @@ Please cite all tools, textbooks, and research papers appropriately.
 ```text
 Bargaining-Game-An-Interdisciplinary-Study/
 ├── README.md
+├── ProblemSet.pdf
 ├── economist/
 │   ├── README.md              # Definitions, citations, equilibrium proofs
-│   └── refs/                  # PDFs and BibTeX (optional)
+│   └── refs/                  # PDFs and BibTeX
 ├── computational_scientist/
-│   ├── notebook.ipynb         # Colab-exported notebook
 │   ├── README.md              # How-to-run + GTE screenshots (with captions)
-│   └── screenshots/           # images (e.g., gte_1.png, sim_1.png, ...)
+│   ├── Colab                  # Google Colab notebook
+│   └── GTE                    # Game Theory Explorer outputs screenshots
 ├── behavioral_scientist/
 │   ├── bargaining_game.otreezip   # oTree deployment package
 │   ├── README.md              # Deployment steps, session config, ethics note
 │   ├── screenshots/           # Human session screenshots
 │   └── llm/                   # prompts.txt, transcript.md, settings.json
-└── refs/                      # Central bibliography (if consolidated)
+├── mechanism_design/
+│   ├── Game.png
+│   ├── README.md              # Deployment steps, session config, ethics note
+│   ├── prompts_rules_interface.txt
+│   └── transcripts_decision_logs.txt
+              
 
 
 
