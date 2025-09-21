@@ -1,7 +1,6 @@
 # Mechanism Design — All-Pay Auction Experiment
 
-This folder contains documentation and experimental results for **Section 7: From Game Theory to Mechanism Design — Testing Winner’s Curse on AI Agents**.
-
+This folder documents the design, implementation, and results of all-pay auction experiments used to test how payoff uncertainty influences bidding behavior and the occurrence of the winner’s curse among AI agents.
 
 ## Game Introduction
 
