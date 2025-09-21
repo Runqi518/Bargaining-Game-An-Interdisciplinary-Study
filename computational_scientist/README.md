@@ -3,8 +3,8 @@ This section documents the computational analysis of the simultaneous-demand bar
 
 ## Contents
 
-- [Google Colab](computational_scientist/Colab/) - Notebook implementing the normal-form simultaneous-demand bargaining game with incomplete information. Includes payoff matrices, expected utilities, and solver outputs.
-- [GTE](computational_scientist/GTE/) - Extensive-form sequential adaptation illustrating SPNE for pedagogical purposes.
+- [Google Colab](Colab/) - Notebook implementing the normal-form simultaneous-demand bargaining game with incomplete information. Includes payoff matrices, expected utilities, and solver outputs.
+- [GTE](GTE/) - Extensive-form sequential adaptation illustrating SPNE for pedagogical purposes.
 
 ## Google Colab (Normal Form & Computation)
 - Players: i ∈ {A, B}, with private types tA ∈ {30,50}, tB ∈ {40,60}, each realized with 0.5 probability.
@@ -13,7 +13,7 @@ This section documents the computational analysis of the simultaneous-demand bar
 ## How to Run
 Follow these steps to run the notebook:
 
-1. Open the notebook in [ProblemSet1_2a](computational_scientist/Colab/ProblemSet1_2a.ipynb).
+1. Open the notebook in [ProblemSet1_2a](Colab/ProblemSet1_2a.ipynb).
 2. Make sure you are signed in with a Google account.
 3. To execute all cells:
    - Click Runtime → Run all
@@ -28,6 +28,6 @@ Follow these steps to run the notebook:
 
 
 ## References
-Vincent Knight (2021). Nashpy: A Python library for the computation of equilibria of 2-player strategic games, Version 0.0.28
-Thomas J. Sargent and John Stachurski (2021). Quantitative Economics (Python), Version 0.5.1
-Rahul Savani and Bernhard von Stengel (2015). Game Theory Explorer – Software for the Applied Game Theorist. Computational Management Science 12, 5–33.
+Vincent Knight (2021). Nashpy: A Python library for the computation of equilibria of 2-player strategic games, Version 0.0.28 <br>
+Thomas J. Sargent and John Stachurski (2021). Quantitative Economics (Python), Version 0.5.1 <br>
+Rahul Savani and Bernhard von Stengel (2015). Game Theory Explorer – Software for the Applied Game Theorist. Computational Management Science 12, 5–33. <br>
