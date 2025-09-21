@@ -2,13 +2,6 @@
 
 This folder contains documentation and experimental results for **Section 7: From Game Theory to Mechanism Design — Testing Winner’s Curse on AI Agents**.
 
-## Contents
-
-- [prompts_rules_interface.txt](./prompts_rules_interface.txt)  
-  Documentation of prompts, rules, and interface setup used in the experiments.
-
-- [transcripts_decision_logs.txt](./transcripts_decision_logs.txt)  
-  Raw transcripts of AI agent interactions (ChatGPT, Doubao, DeepSeek, Qwen) and decision logs for each experimental round.
 
 ## Game Introduction
 
@@ -21,14 +14,22 @@ The strategic complexity of all-pay auctions arises from the fact that every bid
 ## Experiment Summary
 
 - **Control Group**: Fixed asset value = $1,000.  
-- **Treatment Group**: Asset value uniformly distributed in $[800,1200]$.  
+- **Treatment Group**: Asset value uniformly distributed in [$800,$1200].  
 
 - **Hypothesis**: Payoff uncertainty increases the likelihood of the Winner’s Curse.  
 
 - **Findings**:  
   - AI agents increased their bids under uncertainty.  
   - Winner’s Curse rate rose significantly in the treatment group.  
-  - Different AI agents showed heterogeneous bidding tendencies (ChatGPT conservative, Doubao aggressive, etc.).
+  - Different AI agents showed heterogeneous bidding tendencies.
+
+  ## Contents
+
+- [prompts_rules_interface.txt](./prompts_rules_interface.txt)  
+  Documentation of prompts, rules, and interface setup used in the experiments.
+
+- [transcripts_decision_logs.txt](./transcripts_decision_logs.txt)  
+  Raw transcripts of AI agent interactions (ChatGPT, Doubao, DeepSeek, Qwen) and decision logs for each experimental round.
 
 ## References
 
