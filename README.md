@@ -9,7 +9,8 @@ This project investigates the simultaneous-demand bargaining game under incomple
 The project is organized into five main components:
 1. **Problem Set Materials**
    - You can view or download the full Problem Set PDF here:  
-[📄 ProblemSet.pdf](./ProblemSet.pdf)
+<a href="./ProblemSet.pdf" download>Download Problem Set PDF</a>
+
 Includes Problem Set 1 updates, acknowledgments, responses, and Problem Set 2 work.
    
 2. **Economist Component**
