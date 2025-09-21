@@ -38,7 +38,7 @@ The strategic complexity of all-pay auctions arises from the fact that every bid
 
 ### Software and LLM Interfaces
 - OpenAI. *ChatGPT (GPT-4) API*. https://platform.openai.com/  
-- Baidu. *Doubao (Ernie Bot) Interface*. https://yiyan.baidu.com/  
+- ByteDance. *Doubao Interface*. https://www.doubao.com/  
 - DeepSeek AI. *DeepSeek LLM Interface*. https://www.deepseek.com/  
 - Alibaba Cloud. *Qwen (通义千问) Interface*. https://tongyi.aliyun.com/qwen  
 
