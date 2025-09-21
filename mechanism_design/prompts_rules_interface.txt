@@ -1,0 +1,28 @@
+Prompts
+You are participating in a 12-player all-pay auction. 
+The asset is worth exactly $1,000 / The asset is worth $800 – $1,200. 
+All players simultaneously submit integer bids between 0 and 1000. 
+Every player pays their bid regardless of whether they win. 
+The highest bidder receives the asset (ties are broken randomly).  
+
+Question: What integer bid do you choose? Please also briefly explain your reasoning.  
+
+Rules
+Participants: 12 players in total, including two LLM agents under observation (ChatGPT (GPT-4) and Doubao).
+Auction format: all-pay auction.
+Bidding space: integers between 0 and 1000.
+Payment rule: every player pays their bid regardless of outcome.
+Allocation rule: highest bidder receives the asset; ties are broken randomly.
+Conditions:
+Control Group: Asset value fixed at $1,000.
+Treatment Group: Asset value uniformly distributed in [$800, $1,200]; distribution is common knowledge, realization hidden.
+
+Interface Setup
+Environment: text-based interaction with LLM APIs.
+Input format: structured natural language prompt (see above).
+Output requirement: each model must return a single-line JSON object with the following fields:
+model (e.g., "ChatGPT (GPT-4)")
+condition ("control" or "treatment")
+bid (integer 0–1000)
+reasoning (short string, optional)
+Example output: {"model":"ChatGPT (GPT-4)", "condition":"control", "bid":320, "reasoning":"Bidding moderately below the asset’s value reduces risk while keeping a chance to win."}

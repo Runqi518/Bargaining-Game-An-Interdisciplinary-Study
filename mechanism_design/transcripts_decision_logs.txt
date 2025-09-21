@@ -1,0 +1,23 @@
+Control Group (Fixed asset value = $1,000)
+ChatGPT (GPT-4):
+Bid: 320
+Reasoning: “Bidding moderately below the asset’s value reduces the risk of losing money in an all-pay auction while keeping a chance to win.”
+Doubao:
+Bid: 450
+Reasoning: “I bid conservatively but competitive; very large bids are dangerous because you pay regardless of winning.”
+Treatment Group (Asset value ∼ Uniform[$800,$1,200])
+ChatGPT (GPT-4):
+Bid: 850
+Reasoning: “Given the value may be as high as $1,200, raising my bid above the midpoint increases winning chances; I accept a modest risk of overpaying if the realized value turns out low.”
+Doubao:
+Bid: 920
+Reasoning: “Uncertainty about the asset’s true value pushes me to bid aggressively to secure the prize despite the risk of overpayment.”
+
+Decision Logs
+Round	Condition	Model	Bid	Winner	Payoff (if asset = $1,000 in control; example draw = $900 in treatment)
+1	Control	ChatGPT (GPT-4)	320	Doubao	ChatGPT: 1000−320=+680 (if it had won), pays 320 regardless; Doubao: wins asset, payoff=1000−450=+550
+Doubao	450	Doubao	
+2	Treatment	ChatGPT (GPT-4)	850	Doubao	Suppose realized value = 900 → ChatGPT payoff if won=900−850=+50, but loses → −850; Doubao wins asset, payoff=900−920=−20
+Doubao	920	Doubao	
+
+Note: In all-pay auctions, both bidders pay their bid regardless of winning. Payoffs shown are illustrative given assumed asset values. Under treatment, actual payoffs vary with the draw from Uniform[800,1200].
