@@ -32,10 +32,10 @@ Includes Problem Set 1 updates, acknowledgments, responses, and Problem Set 2 wo
 
 ## Additional Materials
 
-- [**Acknowledgments**](./acknowledgments.md)  
+- [**Acknowledgments**](Acknowledgments.md/)  
   This document lists the individuals, references, and resources that supported the development of this project.  
 
-- [**Responses**](./responses.md)  
+- [**Responses**](responses.md/)  
   This file contains detailed responses to feedback, clarifications, and follow-up notes related to the assignments and project work.
 
 
