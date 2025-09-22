@@ -13,29 +13,29 @@ The project is organized into five main components:
 
 Includes Problem Set 1 updates, acknowledgments, responses, and Problem Set 2 work.
    
-2. **Economist Component**
+2. **Economist**
    - [economist/](economist/) — Analytical treatment of auction formats and economic modeling.
 
-3. **Computational Scientist Component**
+3. **Computational Scientist**
    - [computational_scientist/](computational_scientist/) — Coding and simulation:
      - [Colab Notebook](computational_scientist/Colab/) — Implements the normal-form simultaneous-demand bargaining game and computes Bayesian Nash equilibria.
      - [GTE Folder](computational_scientist/GTE/) — Extensive-form sequential adaptation for illustrative SPNE analysis.
 
-4. **Behavioral Scientist Component**
+4. **Behavioral Scientist**
    - [behavioral_scientist/](behavioral_scientist/) — Human experiments and LLM agent comparison:
      - [oTree Project](behavioral_scientist/otree_app/) — Interactive bargaining game for human participants.
      - [LLM Session Data](behavioral_scientist/llm/) — Prompts, transcripts, and model settings for GPT-4 simulation.
      - [Screenshots](behavioral_scientist/screenshots/) — Illustrations of session outcomes and game setup.
 
-5. **Mechanism Design Component**
+5. **Mechanism Design**
    - [mechanism_design/](mechanism_design/) — Auction mechanism implementation, testing, and analysis.
 
 ## Additional Materials
 
-- [**Acknowledgments**](Acknowledgments.md/)  
+- [**Acknowledgments**](Acknowledgments.md)  
   This document lists the individuals, references, and resources that supported the development of this project.  
 
-- [**Responses**](responses.md/)  
+- [**Responses**](Responses.md)  
   This file contains detailed responses to feedback, clarifications, and follow-up notes related to the assignments and project work.
 
 
@@ -73,6 +73,8 @@ Please cite all tools, textbooks, and research papers appropriately.
 Bargaining-Game-An-Interdisciplinary-Study/
 ├── README.md
 ├── ProblemSet.pdf
+├── Acknowledgements.md
+├── Responses.md
 ├── economist/
 │   ├── README.md              # Definitions, citations, equilibrium proofs
 │   └── refs/                  # PDFs and BibTeX
