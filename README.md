@@ -32,7 +32,7 @@ Includes Problem Set 1 updates, acknowledgments, responses, and Problem Set 2 wo
 
 ## Additional Materials
 
-- [**Acknowledgments**](Acknowledgments.md)  
+- [**Acknowledgements**](Acknowledgements.md)  
   This document lists the individuals, references, and resources that supported the development of this project.  
 
 - [**Responses**](Responses.md)  
