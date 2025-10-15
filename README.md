@@ -1,78 +1,73 @@
 # Bargaining Game: An Interdisciplinary Study
- 
+ Author: Runqi Li
 
 ## Abstract
 This project investigates the simultaneous-demand bargaining game under incomplete information, combining theoretical, computational, and experimental approaches. We implement Bayesian Nash equilibria computations in Google Colab, illustrate extensive-form sequential adaptations in Game Theory Explorer (GTE), conduct human experiments and LLM simulations via oTree, and analyze strategic behavior across multiple conditions. The goal is to compare theoretical predictions, human behavior, and AI agent responses, providing insights into fairness, risk, and strategic reasoning.
-
-## Authors and Roles
-Author: Runqi Li
 
 ## Disclaimer
 This repository supports the final research proposal submitted to COMSCI/ECON 206: Computational Microeconomics, instructed by Prof. Luyao Zhang at Duke Kunshan University in Autumn 2025.
 
 ## Acknowledgments
-I would like to sincerely thank Professor Luyao Zhang for her detailed and constructive feedback, which helped clarify inconsistencies between game representations, refine payoff rules, and improve the clarity of figures and theoretical alignment. I am also grateful to Shiqi Chen and Boyan Zhang for their insightful peer reviews, which strengthened the project’s interdisciplinary coherence and analytical rigor. Special thanks to Peilin Wu, Chenlei Tao, and other group members for their valuable discussions and game collaboration. Their collective feedback significantly enhanced both the clarity and depth of this study. 
+I would like to sincerely thank Professor Luyao Zhang for her detailed and constructive feedback, which helped clarify inconsistencies between game representations, refine payoff rules, and improve the clarity of figures and theoretical alignment. <br>
+I am also grateful to Shiqi Chen and Boyan Zhang for their insightful peer reviews, which strengthened the project’s interdisciplinary coherence and analytical rigor. Special thanks to Peilin Wu, Chenlei Tao, and other group members for their valuable discussions and game collaboration. Their collective feedback significantly enhanced both the clarity and depth of this study. <br>
 I also acknowledge the valuable support of AIGC tools and open-source communities that enabled this project, including Python, Jupyter/Google Colab, NashPy, QuantEcon, Game Theory Explorer (GTE), oTree, Matplotlib, Git & GitHub, and LLM agents (e.g., GPT-4, Doubao, DeepSeek, Qwen).
 
 ## Statement of Growth
-Through this interdisciplinary project, I advanced my ability to design and analyze strategic interaction by integrating game theory, mechanism design, and computational experimentation. 1) Developing a Bayesian bargaining model and extending it with machine learning algorithms deepened my understanding of how data-driven methods can simulate and explain social behaviors such as fairness, cooperation, and bounded rationality. 2) By applying reinforcement learning and supervised modeling to compare human and AI negotiation patterns, I strengthened my technical mastery in model training, evaluation, and interpretation within a social-scientific framework. 3) Collaborating with peers and engaging in discussions on ethical implications, including algorithmic bias and welfare trade-offs, enhanced my communication and reflective judgment. Overall, this project enriched my intellectual development by merging quantitative rigor with social insight, and it fostered professional growth through collaborative research, responsible innovation, and clear interdisciplinary communication.
+Through this interdisciplinary project, I advanced my ability to design and analyze strategic interaction by integrating game theory, mechanism design, and computational experimentation. <br>
+1) Developing a Bayesian bargaining model and extending it with machine learning algorithms deepened my understanding of how data-driven methods can simulate and explain social behaviors such as fairness, cooperation, and bounded rationality. 
+2) By applying reinforcement learning and supervised modeling to compare human and AI negotiation patterns, I strengthened my technical mastery in model training, evaluation, and interpretation within a social-scientific framework.  <br>
+3) Collaborating with peers and engaging in discussions on ethical implications, including algorithmic bias and welfare trade-offs, enhanced my communication and reflective judgment. Overall, this project enriched my intellectual development by merging quantitative rigor with social insight, and it fostered professional growth through collaborative research, responsible innovation, and clear interdisciplinary communication. <br>
 How the project enhanced my skills in applying machine learning to social science：
-Modeling Human Behavior: Learned to apply reinforcement learning and supervised models to simulate human bargaining behavior, capturing adaptation, cooperation, and fairness dynamics.
-Experiment–Simulation Integration: Used ML models to complement oTree-based human experiments, comparing algorithmic learning trajectories with real-world decision data.
-Algorithmic Fairness: Reflected on how model bias and outcome disparities can influence welfare assessments, enhancing awareness of ethical considerations in computational social science.
+Modeling Human Behavior: Learned to apply reinforcement learning and supervised models to simulate human bargaining behavior, capturing adaptation, cooperation, and fairness dynamics. <br>
+Experiment–Simulation Integration: Used ML models to complement oTree-based human experiments, comparing algorithmic learning trajectories with real-world decision data. <br>
+Algorithmic Fairness: Reflected on how model bias and outcome disparities can influence welfare assessments, enhancing awareness of ethical considerations in computational social science.
 
 
 ## Table of Contents
-The project is organized into five main components:
-1. **Problem Set Materials**
-   - You can view or download the full Problem Set PDF here:  
+The project is organized into six main components:
 
-
-Includes Problem Set 1 updates, acknowledgments, responses, and Problem Set 2 work.
-   
-2. **Economist**
+1. **Economist**
    - [economist/](economist/) — Analytical treatment of auction formats and economic modeling.
 
-3. **Computational Scientist**
+2. **Computational Scientist**
    - [computational_scientist/](computational_scientist/) — Coding and simulation:
      - [Colab Notebook](computational_scientist/Colab/) — Implements the normal-form simultaneous-demand bargaining game and computes Bayesian Nash equilibria.
      - [GTE Folder](computational_scientist/GTE/) — Extensive-form sequential adaptation for illustrative SPNE analysis.
 
-4. **Behavioral Scientist**
+3. **Behavioral Scientist**
    - [behavioral_scientist/](behavioral_scientist/) — Human experiments and LLM agent comparison:
      - [oTree Project](behavioral_scientist/otree_app/) — Interactive bargaining game for human participants.
      - [LLM Session Data](behavioral_scientist/llm/) — Prompts, transcripts, and model settings for GPT-4 simulation.
      - [Screenshots](behavioral_scientist/screenshots/) — Illustrations of session outcomes and game setup.
 
-5. **Mechanism Design**
-   - [mechanism_design/](mechanism_design/) — Auction mechanism implementation, testing, and analysis.
+4. **Mechanism Design**
+   - [mechanism_design/](mechanism_design/) — Auction mechanism implementation, testing, voting and analysis
 
-## Navigation Instructions
-Guide for reviewers to locate:
-o Code for equilibria computation, mechanism design, and simulations.
-o Visualizations and outputs.
-o Documentation (final report, poster, field trip reflection).
 
-## Additional Materials
+5. **Visualizations**
+o All visualizations are available in the [Visualizations folder](visualizations/)
 
-- [**Acknowledgements**](Acknowledgements.md)  
-  This document lists the individuals, references, and resources that supported the development of this project.  
+6. **Documentations**
+o Documentation (final report, poster, field trip reflection). [docs folder](docs/)
 
-- [**Responses**](Responses.md)  
-  This file contains detailed responses to feedback, clarifications, and follow-up notes related to the assignments and project work.
-
+## Embedded Media
+### Poster
+You can view our project poster here:  
+[Project Poster (PDF)](visualizations/Poster.pdf)  
+### Demo Video
+Watch the demo video on YouTube:  
+[![Demo Video](https://img.youtube.com/vi/7f7p0wknPi/0.jpg)](https://www.youtube.com/watch?v=7f7p0wknPi)  
 
 ## Reproduction Steps
 
-1. Review [ProblemSet.pdf](ProblemSet.pdf) for acknowledgments, responses, and updates.
-2. Explore each component in the following order: economist → computational_scientist → behavioral_scientist → mechanism_design.
-3. For computational experiments:
+1. Explore each component in the following order: economist → computational_scientist → behavioral_scientist → mechanism_design.
+2. For computational experiments:
    - Open the [Colab Notebook](computational_scientist/Colab/ProblemSet1_2a.ipynb) and run all cells.
    - Optionally explore different parameters to observe variations in Bayesian Nash equilibria.
-4. For behavioral experiments:
+3. For behavioral experiments:
    - Navigate to the [oTree Project](behavioral_scientist/otree_app/) and follow instructions to run sessions locally.
    - Review [LLM Session Data](behavioral_scientist/llm/) for AI agent responses.
-5. For mechanism design:
+4. For mechanism design:
    - Explore auction formats and simulation outputs in [mechanism_design/](mechanism_design/).
 
 ## References
@@ -95,8 +90,8 @@ Please cite all tools, textbooks, and research papers appropriately.
 Bargaining-Game-An-Interdisciplinary-Study/
 ├── README.md
 ├── Final Research Proposal.pdf
-├── Acknowledgements.md
-├── Responses.md
+├── visualizations
+├── docs
 ├── economist/
 │   ├── README.md              # Definitions, citations, equilibrium proofs
 │   └── refs/                  # PDFs and BibTeX
