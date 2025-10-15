@@ -1,15 +1,32 @@
-# Bargaining-Game-An-Interdisciplinary-Study
+# Bargaining Game: An Interdisciplinary Study
  
 
 ## Abstract
-This project investigates the simultaneous-demand bargaining game under incomplete information, combining theoretical, computational, and experimental approaches. We implement Bayesian Nash equilibria computations in Google Colab, illustrate extensive-form sequential adaptations in Game Theory Explorer (GTE), conduct human experiments and LLM simulations via oTree, and analyze strategic behavior across multiple conditions. The goal is to compare theoretical predictions, human behavior, and AI agent responses, providing insights into fairness, risk, and strategic reasoning. This repository supports Problem Set 1 & 2 for COMSCI/ECON 206: Computational Microeconomics. <br>
+This project investigates the simultaneous-demand bargaining game under incomplete information, combining theoretical, computational, and experimental approaches. We implement Bayesian Nash equilibria computations in Google Colab, illustrate extensive-form sequential adaptations in Game Theory Explorer (GTE), conduct human experiments and LLM simulations via oTree, and analyze strategic behavior across multiple conditions. The goal is to compare theoretical predictions, human behavior, and AI agent responses, providing insights into fairness, risk, and strategic reasoning.
+
+## Authors and Roles
+Author: Runqi Li
+
+## Disclaimer
+This repository supports the final research proposal submitted to COMSCI/ECON 206: Computational Microeconomics, instructed by Prof. Luyao Zhang at Duke Kunshan University in Autumn 2025.
+
+## Acknowledgments
+I would like to sincerely thank Professor Luyao Zhang for her detailed and constructive feedback, which helped clarify inconsistencies between game representations, refine payoff rules, and improve the clarity of figures and theoretical alignment. I am also grateful to Shiqi Chen and Boyan Zhang for their insightful peer reviews, which strengthened the project’s interdisciplinary coherence and analytical rigor. Special thanks to Peilin Wu, Chenlei Tao, and other group members for their valuable discussions and game collaboration. Their collective feedback significantly enhanced both the clarity and depth of this study. 
+I also acknowledge the valuable support of AIGC tools and open-source communities that enabled this project, including Python, Jupyter/Google Colab, NashPy, QuantEcon, Game Theory Explorer (GTE), oTree, Matplotlib, Git & GitHub, and LLM agents (e.g., GPT-4, Doubao, DeepSeek, Qwen).
+
+## Statement of Growth
+Through this interdisciplinary project, I advanced my ability to design and analyze strategic interaction by integrating game theory, mechanism design, and computational experimentation. 1) Developing a Bayesian bargaining model and extending it with machine learning algorithms deepened my understanding of how data-driven methods can simulate and explain social behaviors such as fairness, cooperation, and bounded rationality. 2) By applying reinforcement learning and supervised modeling to compare human and AI negotiation patterns, I strengthened my technical mastery in model training, evaluation, and interpretation within a social-scientific framework. 3) Collaborating with peers and engaging in discussions on ethical implications, including algorithmic bias and welfare trade-offs, enhanced my communication and reflective judgment. Overall, this project enriched my intellectual development by merging quantitative rigor with social insight, and it fostered professional growth through collaborative research, responsible innovation, and clear interdisciplinary communication.
+How the project enhanced my skills in applying machine learning to social science：
+Modeling Human Behavior: Learned to apply reinforcement learning and supervised models to simulate human bargaining behavior, capturing adaptation, cooperation, and fairness dynamics.
+Experiment–Simulation Integration: Used ML models to complement oTree-based human experiments, comparing algorithmic learning trajectories with real-world decision data.
+Algorithmic Fairness: Reflected on how model bias and outcome disparities can influence welfare assessments, enhancing awareness of ethical considerations in computational social science.
 
 
-## Task Summary
+## Table of Contents
 The project is organized into five main components:
 1. **Problem Set Materials**
    - You can view or download the full Problem Set PDF here:  
-<a href="./ProblemSet.pdf" download>Download Problem Set PDF</a>
+
 
 Includes Problem Set 1 updates, acknowledgments, responses, and Problem Set 2 work.
    
@@ -30,6 +47,12 @@ Includes Problem Set 1 updates, acknowledgments, responses, and Problem Set 2 wo
 5. **Mechanism Design**
    - [mechanism_design/](mechanism_design/) — Auction mechanism implementation, testing, and analysis.
 
+## Navigation Instructions
+Guide for reviewers to locate:
+o Code for equilibria computation, mechanism design, and simulations.
+o Visualizations and outputs.
+o Documentation (final report, poster, field trip reflection).
+
 ## Additional Materials
 
 - [**Acknowledgements**](Acknowledgements.md)  
@@ -37,7 +60,6 @@ Includes Problem Set 1 updates, acknowledgments, responses, and Problem Set 2 wo
 
 - [**Responses**](Responses.md)  
   This file contains detailed responses to feedback, clarifications, and follow-up notes related to the assignments and project work.
-
 
 
 ## Reproduction Steps
@@ -72,7 +94,7 @@ Please cite all tools, textbooks, and research papers appropriately.
 ```text
 Bargaining-Game-An-Interdisciplinary-Study/
 ├── README.md
-├── ProblemSet.pdf
+├── Final Research Proposal.pdf
 ├── Acknowledgements.md
 ├── Responses.md
 ├── economist/
