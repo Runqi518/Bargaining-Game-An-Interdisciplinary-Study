@@ -54,10 +54,11 @@ o Documentation (final report, poster, field trip reflection). [docs folder](doc
 ## Embedded Media
 ### Poster
 You can view our project poster here:  
-[Project Poster (PDF)](docs/poster.pdf)  
+[Project Poster (PDF)](docs/Poster.pdf)  
 ### Demo Video
 Watch the demo video on YouTube:  
-[Demo Video](https://www.youtube.com/watch?v=7f7p0wknPi)  
+[![Demo Video](https://img.youtube.com/vi/7f7p0wknPi/0.jpg)](https://www.youtube.com/watch?v=7f7p0wknPi)
+
 
 ## Reproduction Steps
 
