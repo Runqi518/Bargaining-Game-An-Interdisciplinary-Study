@@ -17,10 +17,11 @@ Through this interdisciplinary project, I advanced my ability to design and anal
 1) Developing a Bayesian bargaining model and extending it with machine learning algorithms deepened my understanding of how data-driven methods can simulate and explain social behaviors such as fairness, cooperation, and bounded rationality. 
 2) By applying reinforcement learning and supervised modeling to compare human and AI negotiation patterns, I strengthened my technical mastery in model training, evaluation, and interpretation within a social-scientific framework.  <br>
 3) Collaborating with peers and engaging in discussions on ethical implications, including algorithmic bias and welfare trade-offs, enhanced my communication and reflective judgment. Overall, this project enriched my intellectual development by merging quantitative rigor with social insight, and it fostered professional growth through collaborative research, responsible innovation, and clear interdisciplinary communication. <br>
+
 How the project enhanced my skills in applying machine learning to social science：
-Modeling Human Behavior: Learned to apply reinforcement learning and supervised models to simulate human bargaining behavior, capturing adaptation, cooperation, and fairness dynamics. <br>
-Experiment–Simulation Integration: Used ML models to complement oTree-based human experiments, comparing algorithmic learning trajectories with real-world decision data. <br>
-Algorithmic Fairness: Reflected on how model bias and outcome disparities can influence welfare assessments, enhancing awareness of ethical considerations in computational social science.
+   - Modeling Human Behavior: Learned to apply reinforcement learning and supervised models to simulate human bargaining behavior, capturing adaptation, cooperation, and fairness dynamics. <br>
+   - Experiment–Simulation Integration: Used ML models to complement oTree-based human experiments, comparing algorithmic learning trajectories with real-world decision data. <br>
+   - Algorithmic Fairness: Reflected on how model bias and outcome disparities can influence welfare assessments, enhancing awareness of ethical considerations in computational social science.
 
 
 ## Table of Contents
@@ -53,10 +54,10 @@ o Documentation (final report, poster, field trip reflection). [docs folder](doc
 ## Embedded Media
 ### Poster
 You can view our project poster here:  
-[Project Poster (PDF)](visualizations/poster.pdf)  
+[Project Poster (PDF)](docs/poster.pdf)  
 ### Demo Video
 Watch the demo video on YouTube:  
-[![Demo Video](https://www.youtube.com/watch?v=7f7p0wknPi)  
+[Demo Video](https://www.youtube.com/watch?v=7f7p0wknPi)  
 
 ## Reproduction Steps
 
