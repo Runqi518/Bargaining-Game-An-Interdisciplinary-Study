@@ -30,6 +30,32 @@ The strategic complexity of all-pay auctions arises from the fact that every bid
 - [transcripts_decision_logs.txt](./transcripts_decision_logs.txt)  
   Raw transcripts of AI agent interactions (ChatGPT, Doubao, DeepSeek, Qwen) and decision logs for each experimental round.
 
+# Voting & Institutions
+Building upon the theoretical foundations and auction-based mechanisms, this section shifts focus to a collective decision-making context, applying Nobel insights to develop a transparent and efficient voting framework.
+
+## Real-world Collective Choice Case
+
+The case concerns the ongoing efforts of the United Nations to coordinate global action on reducing carbon emissions to mitigate climate change. Different countries face varying levels of risk and economic cost:
+
+- Developed economies can invest in green technology but worry about economic disruption.  
+- Developing economies prioritize economic growth and have fewer resources for aggressive reductions.  
+- Small island nations are highly vulnerable to climate impacts and strongly favor rapid action.  
+- Fossil-fuel exporting countries have economic interests tied to oil and gas and prefer minimal intervention.
+
+**Policy Options:**
+1. Aggressive Reduction: Cut global carbon emissions by 50% by 2030.  
+2. Moderate Reduction: Cut global carbon emissions by 30% by 2030.  
+3. Minimal Reduction: Cut global carbon emissions by 10% by 2030.  
+4. No Mandate: Leave emission reductions voluntary.
+
+## Nobel Insights → Innovation
+## Forward-Looking Design Challenge
+
+
+
+
+
+
 ## References
 
 ### Theoretical Background
