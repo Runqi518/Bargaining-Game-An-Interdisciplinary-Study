@@ -57,6 +57,7 @@ You can view our project poster here:
 [Project Poster (PDF)](docs/Poster.pdf)  
 ### Demo Video
 Watch the demo video on YouTube:  
+https://www.youtube.com/watch?v=7f7p0wknPi0
 [![Demo Video](https://img.youtube.com/vi/7f7p0wknPi/0.jpg)](https://www.youtube.com/watch?v=7f7p0wknPi)
 
 
